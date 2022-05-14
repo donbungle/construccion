@@ -1,10 +1,10 @@
 version: "3.7"
 services:
-    dFront_service:
-       container_name: dfront-container
-       image: nginx:1.20.1
+    construccion_svc:
+       container_name: construccion-container
+       image: nginx:1.21.6
        restart: always
        volumes:
-         - .:/usr/share/nginx/html
+         - ./site:/usr/share/nginx/html
        ports:
            - "9911:80"

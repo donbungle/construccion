@@ -5,9 +5,9 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="Droled - Construction & Business HTML Template"/>
-<meta name="keywords" content="construction, business, clean, corporate, creative,"/>
-<meta name="author" content="ThemeMascot"/>
+<meta name="description" content="Joyas en plata999. Collares, cadenas, pulseras, anillos, aros, colgantes, nombres,trabajos personalizados, transformaciones, PERMUTAS."/>
+<meta name="keywords" content="joyas en plata999,collares,cadenas,pulseras,anillos, aros,colgantes,nombres,trabajos personalizados transformaciones, permutas"/>
+<meta name="author" content="device.cl"/>
 
 <!-- Page Title -->
 <title>Joyas Montecinos & Peña</title>
@@ -21,6 +21,7 @@
 
 <!-- Stylesheet -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="assets/css/font-awesome5.css" rel="stylesheet" type="text/css">
 <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css">
 <link href="assets/css/javascript-plugins-bundle.css" rel="stylesheet"/>
 
@@ -66,7 +67,11 @@
         <div class="display-table-cell">
           <div class="container pt-0 pb-0"><div class="row">
               <div class="col-md-10 offset-md-1">
-                <h1 class="text-theme-colored1 font-weight-100 font-64">Estaremos pronto en línea</h1>
+                <div class="row">
+                  <div class="col-12 my-5">
+                    <img src="assets/images/logo/logo_dorado_1.png" style="width: 400px;" alt="Joyas Montecinos y Peña">
+                  </div>
+                </div>
 
                 <div class="row">
                   <div class="col-md-8 offset-md-2">
@@ -81,9 +86,14 @@
                     <!-- Classy Countdown Script -->
                     <script>
                       (function($) {
+                        var event = Date.parse('Jun 01, 2022 00:00:00');
                         $('#countdown17').ClassyCountdown({
-                            theme: "black-very-wide",
-                            end: $.now() + 10000,
+                            theme: "white",
+                            end: Date.now() + (event - Date.now())/1000, 
+                            labels: true,
+                            style: {
+                              textCSS: 'font-size: 0.5em;color:white;'
+                            },
                             labelsOptions: {
                                 lang: {
                                     days: 'Días',
@@ -91,17 +101,19 @@
                                     minutes: 'Minutos',
                                     seconds: 'Segundos'
                                 },
-                                style: 'font-size: 0.5em;'
+                                style: 'font-size: 0.5em;color:white;'
                             },
                         });
                       })(jQuery);
                     </script>
                   </div>
                 </div>
+
+                <h1 class="text-theme-colored1 font-weight-100 font-64">Estaremos pronto en línea</h1>
               </div>
 
               <div class="col-md-8 offset-md-2">
-                <form id="mailchimp-subscription-form" class="newsletter-form mt-0 mb-30 maxwidth500">
+                <form id="mailchimp-subscription-form" class="newsletter-form mt-0 mb-30 maxwidth500 d-none">
                   <label for="mce-EMAIL"></label>
                   <div class="input-group">
                     <input type="email" id="mce-EMAIL" data-height="45px" class="form-control input-lg" placeholder="Tu correo" name="EMAIL" value="">
@@ -132,7 +144,12 @@
                   }
                 </script>
 
-                <p class="font-14">Estamos mejorando nuestro sitio para mejorar tu experiencia.<br>Estaremos pronto en línea....</p>
+                <p class="font-14">
+                  Siguenos en <i class="fab fa-instagram"></i> Instagram <br />
+                  <a href="https://www.instagram.com/joyas.montecinosypena/?hl=en" target="_blank">
+                    @joyas.montecinosypena
+                  </a>
+                </p>
               </div>
             </div>
           </div>
@@ -143,7 +160,7 @@
   <!-- end main-content -->
 
   <!-- Footer -->
-  <footer id="footer" class="footer bg-black-333 text-center pt-20 pb-20">
+  <footer id="footer" class="footer bg-black-222 text-center pt-20 pb-20 mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
