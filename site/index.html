@@ -5,12 +5,12 @@
 <!-- Meta Tags -->
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="description" content="Joyas en plata999. Collares, cadenas, pulseras, anillos, aros, colgantes, nombres,trabajos personalizados, transformaciones, PERMUTAS."/>
-<meta name="keywords" content="joyas en plata999,collares,cadenas,pulseras,anillos, aros,colgantes,nombres,trabajos personalizados transformaciones, permutas"/>
+<meta name="description" content="Administradora Inmobiliaria"/>
+<meta name="keywords" content="Administradora Inmobiliaria"/>
 <meta name="author" content="device.cl"/>
 
 <!-- Page Title -->
-<title>Joyas Montecinos & Peña</title>
+<title>Límite Urbano - Administradora Inmobiliaria</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="assets/images/favicon.png" rel="shortcut icon" type="image/png">
@@ -38,13 +38,22 @@
 
 <!-- CSS | Theme Color -->
 <link href="assets/css/colors/theme-skin-color-set11.css" rel="stylesheet" type="text/css">
+<style>
+  :root {
+    --color1: #ce7d07;
+    --color2: #065e4e;
+    --color3: #d5b18d;
+    --color4: #d9dbda;
+  }
+
+  .text-theme-colored1 {
+      color: var(--color2) !important;
+  }
+</style>
 
 <!-- external javascripts -->
-<script src="assets/js/jquery.js"></script>
-<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/jquery.js"></script> 
 <script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/javascript-plugins-bundle.js"></script>
-<script src="assets/js/menuzord/js/menuzord.js"></script>
 
 <!-- <link href="assets/css/style.css" rel="stylesheet" type="text/css"> -->
 
@@ -56,8 +65,8 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body class="tm-container-1300px" style="background-color: #111;">
-<div id="wrapper" class="clearfix">
+<body class="tm-container-1300px" style="background-color: var(--color1);">
+<div id="wrapper" class="clearfix" style="background-image: url(./assets/images/pattern/brick-wall-dark.png);">
 
   <!-- Start main-content -->
   <div class="main-content-area">
@@ -69,7 +78,7 @@
               <div class="col-md-10 offset-md-1">
                 <div class="row">
                   <div class="col-12 my-5">
-                    <img src="assets/images/logo/logo_dorado_1.png" style="width: 400px;" alt="Joyas Montecinos y Peña">
+                    <img src="assets/images/logo/logo.png" style="width: 400px;" alt="Limite Urbano">
                   </div>
                 </div>
 
@@ -86,7 +95,7 @@
                     <!-- Classy Countdown Script -->
                     <script>
                       (function($) {
-                        var event = Date.parse('Jun 01, 2022 00:00:00');
+                        var event = Date.parse('Jun 25, 2023 00:00:00');
                         $('#countdown17').ClassyCountdown({
                             theme: "white",
                             end: Date.now() + (event - Date.now())/1000, 
@@ -109,45 +118,15 @@
                   </div>
                 </div>
 
-                <h1 class="text-theme-colored1 font-weight-100 font-64">Estaremos pronto en línea</h1>
+                <h1 class="text-theme-colored1 font-weight-500">Estaremos pronto en línea</h1>
               </div>
 
               <div class="col-md-8 offset-md-2">
-                <form id="mailchimp-subscription-form" class="newsletter-form mt-0 mb-30 maxwidth500 d-none">
-                  <label for="mce-EMAIL"></label>
-                  <div class="input-group">
-                    <input type="email" id="mce-EMAIL" data-height="45px" class="form-control input-lg" placeholder="Tu correo" name="EMAIL" value="">
-                    <span class="input-group-btn">
-                      <button type="submit" class="btn btn-colored btn-theme-colored1 btn-flat m-0" data-height="45px">Suscribirse</button>
-                    </span>
-                  </div>
-                </form>
 
-                <!-- Mailchimp Subscription Form Validation-->
-                <script>
-                  $('#mailchimp-subscription-form').ajaxChimp({
-                      callback: mailChimpCallBack,
-                      url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-                  });
-
-                  function mailChimpCallBack(resp) {
-                      // Hide any previous response text
-                      var $mailchimpform = $('#mailchimp-subscription-form'),
-                          $response = '';
-                      $mailchimpform.children(".alert").remove();
-                      if (resp.result === 'success') {
-                          $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                      } else if (resp.result === 'error') {
-                          $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-                      }
-                      $mailchimpform.prepend($response);
-                  }
-                </script>
-
-                <p class="font-14">
+                <p class="font-size-24 text-gray-gainsboro">
                   Siguenos en <i class="fab fa-instagram"></i> Instagram <br />
-                  <a href="https://www.instagram.com/joyas.montecinosypena/?hl=en" target="_blank">
-                    @joyas.montecinosypena
+                  <a href="https://www.instagram.com/limiteurbano_cl/" target="_blank">
+                    @limiteurbano_cl
                   </a>
                 </p>
               </div>
@@ -164,7 +143,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p class="mb-0">Copyright ©2022 Joyas Montecinos & Peña</p>
+          <p class="mb-0">Copyright ©2023 Límite Urbano</p>
         </div>
       </div>
     </div>
